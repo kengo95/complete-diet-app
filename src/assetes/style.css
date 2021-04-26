@@ -1,0 +1,163 @@
+.height20{
+  height: 20px;
+}
+.height40{
+  height: 40px;
+}
+
+/*--------------main------------  */
+.main{
+  margin-top: 80px;
+  min-height: 700px;
+  padding: 30px;
+  text-align: center;
+}
+
+/*--------------footer------------  */
+.footer{
+  height: 64px;
+  padding: 20px 30px;
+  background-color:#2e3740;
+}
+.footer-container{
+  text-align: center;
+  font-size: 8px;
+  color:rgba(201, 201, 201, 0.997) ;
+}
+  .p-footer{
+    align-items: center;
+  }
+/*--------------container------------  */
+.container{
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.p-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.c-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  border: 1px solid #000000;
+}
+.p-button-container{
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin:0 auto;
+}
+@media screen and (max-width:480px){
+  .p-button-container{
+    justify-content: center;
+  }
+}
+
+.p-button-container::after{
+  display: block;
+  content:"";
+  width: 150px;
+}
+.wrap-container{
+  display: flex;
+  max-width: 650px;
+  margin:0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.wrap-left-box{
+  width: 300px;
+
+}
+.wrap-right-box{
+  width: 300px;
+
+  text-align: left;
+}
+@media screen and (max-width:480px){
+  .wrap-left-box{
+    margin: 0 auto;
+  }
+  .wrap-right-box{
+    margin: 20px auto;
+  }
+}
+.wrap-left-text-box{
+  width: 250px
+
+}
+.wrap-right-button-box{
+  width: 350px;
+  text-align: left;
+}
+
+.container-under{
+  margin-top: 20px;
+  max-width: 650px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(180, 180, 180, 0.552);
+  min-height: 150px;
+}
+.imageArea{
+  width: 200px;
+  height: 200px;
+}
+.button-wrap{
+  display: flex;
+  text-align: center;
+  max-width: 500px;
+  justify-content: space-between;
+  margin:0 auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.button-wrap-child{
+  margin: 0 auto;
+}
+
+.flex-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* --------------text------------ */
+.title{
+  font-size: 30px;
+  margin:0 auto;
+  color: rgba(132, 132, 134, 0.997);
+}
+.p-text{
+  font-size: 14px;
+  color: rgba(132, 132, 134, 0.997);
+}
+/* --------------button------------ */
+.signin-button{
+  margin-top: 20px;
+}
+
+/* --------------productlist------------ */
+
+@media screen and (min-width:768px){
+  .product-list-top{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .product-list-top-child{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

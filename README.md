@@ -1,23 +1,38 @@
-# Getting Started with Create React App
+# 自己紹介
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+多くの人と人をつなぎ合わせる事ができるシステムを開発したいと思い独学でフロントエンドエンジニアの学習を開始しました。
 
-## Available Scripts
+主なフロントエンドの学習言語は
 
-In the project directory, you can run:
+* JavaScript
+* React
+* Redux
 
-### `yarn start`
+データベースとして
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*firebase
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+を使用して作成いたしました。
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### 学習時間
+
+* JavaScript学習時間：1.5週間 (30時間)
+* React 学習時間:1.5週間 (30時間)
+* Redux 学習時間:1週間（20時間）
+
+* 本アプリ作成時間:1週間（30時間）
+
+# アプリの概要
+
+### タイトル
+
+[食事管理アプリ](https://react-firebase-7e85f.web.app/)
+
+### 開発経緯
+
+前回作成した[Fai Fai Diet](https://fai-fai-di.web.app/)の改良版として本アプリを作成いたしました。
 
 ### `yarn build`
 

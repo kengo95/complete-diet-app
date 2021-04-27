@@ -46,5 +46,5 @@
 
 ###　認証機能の追加
 firebase　Authentication　の機能を使いemailとpasswordでアカウントを作成したりログインしたりできる機能を実装いたしました。
-![second]https://github.com/kengo95/complete-diet-app/issues/1#issue-868826263
+![second](https://github.com/kengo95/complete-diet-app/issues/1#issue-868826263)
 

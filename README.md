@@ -52,7 +52,7 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 ### 食材の登録
 自分の好きな食材の写真、栄養を保存できるようにしました。
 
-![demo2](https://github.com/kengo95/complete-diet-app/issues/6#issue-868862405)
+![demo2](https://user-images.githubusercontent.com/78431096/116251611-cb79c980-a7a9-11eb-9711-6274f11919a3.gif)
 
 ### 食材の編集、削除
 登録した食材の編集削除も可能です。

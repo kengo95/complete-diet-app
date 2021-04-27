@@ -62,7 +62,7 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 ### カロリー計算、登録
 食べた量に対して栄養を計算し直す事ができます。
 
-![demo5](https://github.com/kengo95/complete-diet-app/issues/9#issue-868894919)
+![demo5](https://user-images.githubusercontent.com/78431096/116261607-c53c1b00-a7b2-11eb-909d-bc4bded213e3.gif)
 
 ### 総合摂取カロリーの計算
 １日食べたものを登録することによってその日の総合カロリーを計算します。

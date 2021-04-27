@@ -72,6 +72,9 @@ https://github.com/kengo95/complete-diet-app/issues/10#issue-868908837
 ### 履歴を残せる
 1日の総合摂取カロリーを履歴として残せるようにしました。
 
+![demo7](https://user-images.githubusercontent.com/78431096/116260059-54483380-a7b1-11eb-8321-a0b38905ee52.gif)
+
+
 
 
 

@@ -67,6 +67,11 @@ https://github.com/kengo95/complete-diet-app/issues/9#issue-868894919
 ### 総合摂取カロリーの計算
 １日食べたものを登録することによってその日の総合カロリーを計算します。
 
+https://github.com/kengo95/complete-diet-app/issues/10#issue-868908837
+
+### 履歴を残せる
+1日の総合摂取カロリーを履歴として残せるようにしました。
+
 
 
 

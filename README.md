@@ -55,5 +55,16 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 https://github.com/kengo95/complete-diet-app/issues/6#issue-868862405
 
 ### 食材の編集、削除
-登録した食材の編集削除も可能です。」
+登録した食材の編集削除も可能です。
+
+![demo4](https://user-images.githubusercontent.com/78431096/116255200-fdd8f600-a7ac-11eb-9d84-6a61b2c4a7e4.gif)
+
+### カロリー計算
+食べた量に対して栄養を計算し直す事ができます。
+
+
+
+
+
+
 

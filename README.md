@@ -52,7 +52,7 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 ### 食材の登録
 自分の好きな食材の写真、栄養を保存できるようにしました。
 
-![demo2]https://github.com/kengo95/complete-diet-app/issues/6#issue-868862405
+![demo2](https://github.com/kengo95/complete-diet-app/issues/6#issue-868862405)
 
 ### 食材の編集、削除
 登録した食材の編集削除も可能です。
@@ -62,12 +62,12 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 ### カロリー計算、登録
 食べた量に対して栄養を計算し直す事ができます。
 
-![demo5]https://github.com/kengo95/complete-diet-app/issues/9#issue-868894919
+![demo5](https://github.com/kengo95/complete-diet-app/issues/9#issue-868894919)
 
 ### 総合摂取カロリーの計算
 １日食べたものを登録することによってその日の総合カロリーを計算します。
 
-![demo6]https://github.com/kengo95/complete-diet-app/issues/10#issue-868908837
+![demo6](https://github.com/kengo95/complete-diet-app/issues/10#issue-868908837)
 
 ### 履歴を残せる
 1日の総合摂取カロリーを履歴として残せるようにしました。

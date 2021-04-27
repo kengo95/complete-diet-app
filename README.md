@@ -66,7 +66,7 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 
 ### 総合摂取カロリーの計算
 １日食べたものを登録することによってその日の総合カロリーを計算します。
-![demo6](https://user-images.githubusercontent.com/78431096/116261297-75f5ea80-a7b2-11eb-9df5-545ff6386c99.gif)
+![demo8](https://user-images.githubusercontent.com/78431096/116262321-64611280-a7b3-11eb-8703-ecfa66e01e2c.gif)
 
 ### 履歴を残せる
 1日の総合摂取カロリーを履歴として残せるようにしました。

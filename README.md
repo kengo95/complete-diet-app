@@ -44,7 +44,7 @@
 
 # 使用イメージ
 
-###　認証機能の追加
+### 認証機能の追加
 firebase　Authentication　の機能を使いemailとpasswordでアカウントを作成したりログインしたりできる機能を実装いたしました。
 ![demo1](https://user-images.githubusercontent.com/78431096/116250160-6e314880-a7a8-11eb-9a68-c8a9194605ae.gif)
 

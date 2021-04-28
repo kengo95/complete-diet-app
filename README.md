@@ -12,7 +12,7 @@
 
 * firebase
 
-を使用して作成いたしました。
+の使い方を学習いたしました。
 
 
 
@@ -72,6 +72,22 @@ firebase　Authentication　の機能を使いemailとpasswordでアカウント
 1日の総合摂取カロリーを履歴として残せるようにしました。
 
 ![demo7](https://user-images.githubusercontent.com/78431096/116260059-54483380-a7b1-11eb-8321-a0b38905ee52.gif)
+
+
+# 使用言語
+### フロントエンド
+
+HTML/CSS/React/Redux
+
+### データベース
+
+firebase
+
+### デプロイ環境
+
+firebse
+
+
 
 
 

@@ -111,7 +111,7 @@ db.colection('').delete()
 ///エラー
 ```
 このエラーはbatchメソッドを使用し解消いたしました。  <br>
-→[こちらのQiitaの記事](https://fai-fai-di.web.app/)でアウトプットいたしました。
+→[こちらのQiitaの記事](https://qiita.com/kengo95/items/91dee723d52121442d2d)でアウトプットいたしました。
 
 # 学んだこと
 *　firebase へのデータの追加、取得、削除　一連のメソッドを学べました。

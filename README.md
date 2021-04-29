@@ -88,7 +88,7 @@ Visual Studio Code
 
 ### デプロイ環境
 
-firebse
+firebase
 
 # 改善した点
 
@@ -112,11 +112,26 @@ db.collection('').doc(id).delete()
 ```
 db.collection('').delete()
 ```
-上記のコードで出来ると思ったのですがエラーになってしましました。
-コレクションを削除するにはコレクション内のすべてのドキュメントを取得して削除する方法しかないとわかりました。<br>
+上記のコードで出来ると思ったのですがエラーになってしましました。<br>
+エラーの原因は、コレクションを直接削除しようとしたところと判明しました。<br>
+コレクションを削除するにはコレクション内のすべてのドキュメントを取得して削除しないといけなかったみたいです。<br>
 →[参考サイト](https://firebase.google.com/docs/firestore/manage-data/delete-data?hl=ja)
 
-
+解決方法としてbatchメソッドを活用しました。
+>"オペレーション セットでドキュメントを読み取る必要がない場合は、複数の書き込みオペレーションを 1 つのバッチとして実行できます。このバッチには、set()、update()、delete() オペレーションを自由に組み合わせて含めることができます。書き込みのバッチはアトミックに実行され、また複数のドキュメントに対する書き込みを実行できます。"
+```
+ const Ref=db.collection('');
+    const batch = db.batch();
+    for(const product of products){
+      batch.delete(
+        Ref.doc(product.id)
+      )
+    }
+    batch.commit()
+    .then(()=>{
+      console.log("成功")
+    })
+```
 
 
 

@@ -110,9 +110,11 @@ firebase
 db.colection('').delete()
 ///エラー
 ```
-このエラーはbatchメソッドを使用し解消いたしました。
+このエラーはbatchメソッドを使用し解消いたしました。  <br>
 →[こちらのQiitaの記事](https://fai-fai-di.web.app/)でアウトプットいたしました。
 
+# 学んだこと
+firebase への
 
 
 

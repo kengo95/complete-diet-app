@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# 食事管理アプリ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1日の合計カロリーを計算できるアプリを作りました。
 
-## Available Scripts
+URL：https://react-firebase-7e85f.web.app/
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 開発経緯
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### アプリのコンセプト
 
-### `yarn test`
+* 簡単に使用する事ができ、ダイエットのサポート。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+最近のフィットネスブームでボディメイクに興味を持つ人が増えてきました。私もその1人です。運動を行い食生活を改善することによりMAX体重125kgから85kgまで体重を落とすことに成功しました。<br>
+体重を落とすために1番必要なのは食生活の改善です。1日にどのくらいのカロリーをとり、その内脂質、タンパク質、炭水化物の量はどのくらいか計算しなければいけません。多くの人がこの食生活の部分を適当に行ってしまい、挫折してしまいます。　<br>
+そこで多くの人が面倒で避けてしまう食生活の改善を簡単に行えるサイトを作りたいと考え本アプリを作成いたしました。
 
-### `yarn build`
+### アプリの概要
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+前回作成した[Fai Fai Diet](https://fai-fai-di.web.app/)の改良版として本アプリを作成いたしました。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+改善点としては
+* 履歴を残せるようにする。
+* 食材を登録できるようにする。
+* ユーザー別に認証する。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+以上、３点を本アプリでは改善いたしました。
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 使用イメージ
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 認証機能の追加
+emailとpasswordでアカウントを作成したりログインしたりできる機能を実装いたしました。
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![demo1](https://user-images.githubusercontent.com/78431096/116250160-6e314880-a7a8-11eb-9a68-c8a9194605ae.gif)
 
-## Learn More
+### 食材の登録
+自分の好きな食材の写真、栄養を保存できるようにしました。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![demo2](https://user-images.githubusercontent.com/78431096/116251611-cb79c980-a7a9-11eb-9711-6274f11919a3.gif)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 食材の編集、削除
+登録した食材の編集、削除も可能です。
 
-### Code Splitting
+![demo4](https://user-images.githubusercontent.com/78431096/116255200-fdd8f600-a7ac-11eb-9d84-6a61b2c4a7e4.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### カロリー計算、登録
+食べた量に対して栄養を計算し直す事ができます。
 
-### Analyzing the Bundle Size
+![demo5](https://user-images.githubusercontent.com/78431096/116261607-c53c1b00-a7b2-11eb-909d-bc4bded213e3.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 総合摂取カロリーの計算
+１日食べたものを登録することによってその日の総合カロリーを計算します。
+![demo8](https://user-images.githubusercontent.com/78431096/116262321-64611280-a7b3-11eb-8703-ecfa66e01e2c.gif)
 
-### Making a Progressive Web App
+### 履歴を残せる
+1日の総合摂取カロリーを履歴として残せるようにしました。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![demo7](https://user-images.githubusercontent.com/78431096/116260059-54483380-a7b1-11eb-8321-a0b38905ee52.gif)
 
-### Advanced Configuration
+# 機能一覧
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* ユーザー登録機能
+* ログイン機能
+* 食材の栄養素の登録
+* 食材の栄養素の編集
+* 食材の栄養をの削除
+* 摂取した食材の量に応じて栄養素の自動計算
+* 合計カロリーの自動計算
+* 履歴表示機能
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 使用言語
 
-### `yarn build` fails to minify
+### フロントエンド
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+HTML/CSS/JavaScript/React/Redux
+
+### データベース
+
+firebase
+
+### その他ツール
+
+Visual Studio Code
+
+### デプロイ環境
+
+firebase
+
+# 改善した点
+
+### ユーザー別に認証する
+各ユーザーの情報が登録してあるコレクションのサブコレクションとしてそのユーザーが摂取した食材を保存するコレクション、そのユーザーの今までの履歴を保存するコレクションを登録することによってユーザーごとにデータを管理する事ができました。
+
+### 食材を登録できるようにする
+ログインしたユーザーすべての人が共有できるようにしました。食材でだけではなく料理も登録できるようにしてあり自分が考えて作ったダイエット飯を共有できるようにするためです。この意図は、1人でやると日々食べるものが同じになってしまいます。そこで減量飯をシェアする事ができたら飽きる事なくダイエットを継続出来るのではないかと考えたからです。
+
+### 履歴を残せるようにする
+登録ボタンを押した時点での総合摂取カロリーと日付を保存し表示で記すようにしてあります。
+
+# 苦労した点
+
+### データベースの削除
+ドキュメントをまとめて削除するところがつまづきました。
+最初はコレクションに直接deleteメソッドをしようしエラーが出てしまいました。
+```
+db.colection('').delete()
+///エラー
+```
+このエラーはbatchメソッドを使用し解消いたしました。  <br>
+→[こちらのQiitaの記事](https://qiita.com/kengo95/items/91dee723d52121442d2d)でアウトプットいたしました。
+
+# 学んだこと
+
+* Firebase へのデータの追加、取得、削除　一連のメソッドを学べました。
+* JavaScriptの非同期処理の考え方を学べました。
+
+この経験を生かし最終的にはWEBエンジニアとして実務を全うできることを目指します。
+
+最後まで読んでいただきありがとうございました。
+
+
+

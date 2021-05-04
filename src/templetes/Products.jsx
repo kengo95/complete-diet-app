@@ -22,32 +22,30 @@ function Products() {
   const [number ,setNumber]=useState("")
   const inputNumber=useCallback((e)=>setNumber(e.target.value),[setNumber])
 
-  const onClickReset=useCallback(
-    ()=>{
-      return(
-        setWeight(data.weight),
-        setKal(data.kal),
-        setFat(data.fat),
-        setCarbo(data.carbo),
-        setProtein(data.protein)
+  const onClickReset=()=>{
+    return(
+      setWeight(data.weight),
+      setKal(data.kal),
+      setFat(data.fat),
+      setCarbo(data.carbo),
+      setProtein(data.protein)
   
-      )
-    }
-  )
+    )
+  }
   
-  const chngeValue =useCallback(
-    ()=>{
-      return(
-        setWeight(number*weight),
-        setKal(number*kal),
-        setFat(number*fat),
-        setCarbo(number*carbo),
-        setProtein(number*protein),
-        setNumber("")
-      )
+  const chngeValue =()=>{
+    return(
+      setWeight(number*weight),
+      setKal(number*kal),
+      setFat(number*fat),
+      setCarbo(number*carbo),
+      setProtein(number*protein),
+      setNumber("")
+    )
+  }
+
       
-    }
-  )
+   
   useEffect(()=>{
     db.collection("products").doc(urlId).get()
     .then(snapshot=>{

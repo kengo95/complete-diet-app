@@ -139,7 +139,6 @@ export const signUp = (username,email,password,verification) =>{
         const profile={
           created_at:timestamp,
           uid:uid,
-          updated_at:timestamp,
           username:username,
           email:email
         }
@@ -159,18 +158,14 @@ export const listenAuthState = () => {
   return async (dispatch) => {
       return auth.onAuthStateChanged(user => {
           if (user) {
-            db.collection('users').doc(user.uid).get()
+                const uid=user.uid
+                db.collection('users').doc(uid).get()
                   .then(snapshot => {
                       const data = snapshot.data()
                       if (!data) {
                           throw new Error('ユーザーデータが存在しません。')
                       }
                       dispatch(signinAction({
-                          customer_id: (data.customer_id) ? data.customer_id : "",
-                          email: data.email,
-                          isSignedIn: true,
-                          payment_method_id: (data.payment_method_id) ? data.payment_method_id : "",
-                          role: data.role,
                           uid: user.uid,
                           username: data.username,
                       }))

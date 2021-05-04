@@ -1,7 +1,6 @@
-export {default as Home} from "./home"
+
 export {default as SignUp} from "./signUp"
 export {default as SignIn} from "./signIn"
-export {default as Next} from "./Next"
 export {default as Productedit} from "./Productedit"
 export {default as ProductList} from "./ProductList"
 export {default as Products} from "./Products"

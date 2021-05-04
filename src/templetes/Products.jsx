@@ -88,7 +88,6 @@ function Products() {
 
       )}
       <div className="wrap-container">
-     
         <div className="wrap-left-text-box">
         <Text fullWidth={false} label={"何g"} margin="dense" multiline={false}
         required={true} rows={1} value={number} type={"text"} onChange={inputNumber}

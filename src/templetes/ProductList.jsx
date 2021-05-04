@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import FoodSum from '../components/products/FoodSum';
-import ProductButton from '../components/UIkid/ProductButton'
 import ProductListButton from '../components/products/productListButton';
 import Time from '../components/products/Time';
 import { AddFoodButton } from '../components/UIkid';
-import { fetchProducts } from '../reducers/products/operation';
-import { getProducts } from '../reducers/products/selscoters';
 import { push } from 'connected-react-router';
 
 

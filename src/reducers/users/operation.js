@@ -76,11 +76,11 @@ export const deletFoodList=(products)=>{
     const uid=getState().users.uid;
     const userRef=db.collection('users').doc(uid);
     const batch = db.batch();
-    for(const product of products){
+    products.forEach(product=>{
       batch.delete(
-        userRef.collection('food').doc(product.id)
-      )
-    }
+            userRef.collection('food').doc(product.id)
+          )
+    })
     batch.commit()
     .then(()=>{
       console.log("成功")

@@ -22,7 +22,7 @@ export default function DenseTable(props) {
       <Table className={classes.table} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
-            <TableCell>食べ物 ({props.weight}g あたり)</TableCell>
+            <TableCell> 1人前 {props.weight !== 0 &&` （${props.weight}）g あたり`}</TableCell>
             <TableCell align="right"></TableCell>
           </TableRow>
         </TableHead>

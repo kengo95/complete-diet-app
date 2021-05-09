@@ -82,7 +82,7 @@ function FoodSum() {
         <TableBody>
           {foodlist.map((food,index) => (
             <TableRow key={index}>
-              <TableCell>{food.name}&nbsp;&nbsp;{food.weight}g</TableCell>
+              <TableCell>{food.name}&nbsp;&nbsp;{food.weight !== 0 && food.weight +`g あたり`}</TableCell>
               <TableCell align="right">{food.kal}</TableCell>
               <TableCell align="right">{food.fat}</TableCell>
               <TableCell align="right">{food.carbo}</TableCell>
